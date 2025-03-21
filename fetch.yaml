@@ -1,11 +1,17 @@
-swagger: '2.0'
+openapi: 3.0.1
 info:
-  version: "0.0.1"
   title: Example Title
-  description: <img src=x onerror="alert('XSS')">
+  description: "XSS Test"
 paths:
-  /:
+  /test:
     get:
+      parameters:
+        - name: "testParam"
+          in: "query"
+          description: "Test for XSS"
+          schema:
+            type: string
+            example: "%3Cimg%20src%3Dx%20onerror%3D%22alert%28%27XSS%27%29%22%20%2F%3E"
       responses:
         200:
           description: Successful response
