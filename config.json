@@ -1,8 +1,8 @@
 {
-    "url": "https://raw.githubusercontent.com/cogiorgio/xss-swagger/fetch.yaml",
+    "url": "https://raw.githubusercontent.com/cogiorgio/xss-swagger/refs/heads/main/fetch.yaml",
     "urls": [
         {
-            "url": "https://raw.githubusercontent.com/cogiorgio/xss-swagger/fetch.yaml",
+            "url": "https://raw.githubusercontent.com/cogiorgio/xss-swagger/refs/heads/main/fetch.yaml",
             "name": "XSS payload"
         }
     ]
