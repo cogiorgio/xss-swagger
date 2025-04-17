@@ -1,0 +1,9 @@
+{
+    "url": "https://raw.githubusercontent.com/cogiorgio/xss-swagger/refs/heads/main/fetch2.yaml",
+    "urls": [
+        {
+            "url": "https://raw.githubusercontent.com/cogiorgio/xss-swagger/refs/heads/main/fetch2.yaml",
+            "name": "XSS payload"
+        }
+    ]
+}
